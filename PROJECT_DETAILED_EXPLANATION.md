@@ -36,7 +36,7 @@ This is a **full-stack web application** for Agile sprint planning that combines
 ### 🏗️ **Technical Architecture**
 
 #### Frontend (React)
-- **React 19.1.0**: Latest React version with modern hooks and features
+- **React 18.x**: Latest stable React version with modern hooks and features
 - **Bootstrap 5.3.7**: Professional, responsive UI design
 - **React Router**: Single-page application with navigation
 - **Local Storage**: Data persistence across browser sessions
@@ -151,7 +151,7 @@ sprintplanning/
 │   └── index.js                 # Application entry point
 ├── api.py                       # Flask backend with ML models
 ├── model.py                     # Machine learning training
-├── package.json                 # Frontend dependencies
+├── package.json                 # Frontend dependencies (in project root)
 └── README.md                    # Project documentation
 ```
 
@@ -159,6 +159,7 @@ sprintplanning/
 
 ### Frontend Setup
 ```bash
+cd src
 npm install
 npm start
 # Runs on http://localhost:3000
@@ -166,7 +167,7 @@ npm start
 
 ### Backend Setup
 ```bash
-pip install flask flask-cors pandas scikit-learn xgboost
+pip install -r requirements.txt
 python api.py
 # Runs on http://localhost:5000
 ```
@@ -196,4 +197,7 @@ This project offers excellent learning experiences in:
 - **Scalable architecture**: Can grow from simple tool to enterprise solution
 - **Portfolio piece**: Shows full-stack development capabilities
 
-This project provides a solid foundation for learning advanced web development, AI integration, and Agile project management while building something genuinely useful for development teams. 
+This project provides a solid foundation for learning advanced web development, AI integration, and Agile project management while building something genuinely useful for development teams.
+
+---
+**Note:** The filename should be `PROJECT_DETAILED_EXPLANATION.md` (not `PROJECT_DETAILED_EXPALNATION.md`). Consider renaming for clarity and professionalism.

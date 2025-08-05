@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Optimizing Sprint Planning in Scrum Teams
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application designed to help Scrum teams optimize their sprint planning process. It provides tools for managing sprints, daily standups, and Kanban boards, aiming to improve team productivity and collaboration.
 
-## Available Scripts
+## Features
+- **Sprint Planner:** Plan and manage sprints, assign tasks, and track progress.
+- **Kanban Board:** Visualize tasks in different stages (To Do, In Progress, Done).
+- **Daily Standup:** Facilitate daily standup meetings and track blockers.
+- **API Integration:** Backend API for managing data and business logic.
 
-In the project directory, you can run:
+## Tech Stack
+- **Frontend:** React (JavaScript, CSS)
+- **Backend:** Python (Flask or similar)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js and npm
+- Python 3.x
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/meghanakongara0429/-Optimizing-Sprint-Planning-in-Scrum-Teams.git
+   cd -Optimizing-Sprint-Planning-in-Scrum-Teams
+   ```
+2. **Install frontend dependencies:**
+   ```sh
+   cd src
+   npm install
+   ```
+3. **Install backend dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-### `npm test`
+### Running the Application
+1. **Start the backend API:**
+   ```sh
+   python api.py
+   ```
+2. **Start the frontend:**
+   ```sh
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The frontend will be available at `http://localhost:3000` and the backend API at `http://localhost:5000` (default ports).
 
-### `npm run build`
+## Project Structure
+```
+api.py                # Backend API
+model.py              # Data models
+src/                  # Frontend source code
+  components/         # React components
+public/               # Static assets
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+See [CONTRIBUTE.md](CONTRIBUTE.md) for guidelines.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
