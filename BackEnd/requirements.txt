@@ -1,3 +1,4 @@
+xgboost
 # Note for Contributors:
 #
 # This file lists Python backend dependencies only (for Flask API, etc.).
