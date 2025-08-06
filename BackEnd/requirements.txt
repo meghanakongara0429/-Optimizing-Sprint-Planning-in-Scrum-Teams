@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Note for Contributors:
 #
 # This file lists Python backend dependencies only (for Flask API, etc.).
@@ -15,17 +14,3 @@ pandas
 scikit-learn
 numpy
 gunicorn
-=======
-# Note for Contributors:
-#
-# This file lists Python backend dependencies only (for Flask API, etc.).
-#
-# Frontend (React) dependencies are managed separately using npm and are listed in the 'package.json' file inside the 'src' directory.
-# To install frontend dependencies, navigate to the 'src' folder and run:
-#   npm install
-#
-# Do not add React or JavaScript packages here. Use this file only for Python packages required by the backend.
-
-Flask
-Flask-Cors
->>>>>>> 42246c18a29ba32c35c8c5874fc3ec19fe3d37ad
