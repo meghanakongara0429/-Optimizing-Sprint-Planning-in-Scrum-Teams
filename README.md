@@ -48,11 +48,21 @@ The frontend will be available at `http://localhost:3000` and the backend API at
 
 ## Project Structure
 ```
-api.py                # Backend API
-model.py              # Data models
-src/                  # Frontend source code
-  components/         # React components
-public/               # Static assets
+BackEnd/
+  api.py                # Backend API
+  model.py              # Machine learning logic
+  requirements.txt      # Backend dependencies
+  improved_sprint_planning_dataset.csv # Dataset
+FrontEnd/
+  src/
+    components/         # React components
+    App.js              # Main application router
+    index.js            # Application entry point
+  public/               # Static assets
+render.yaml             # Render deployment config
+README.md               # Project documentation
+CONTRIBUTE.md           # Contribution guidelines
+PROJECT_DETAILED_EXPLANATION.md # Detailed project overview
 ```
 
 ## Contributing
