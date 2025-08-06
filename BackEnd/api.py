@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load your dataset and train models (for demo, retrain on each start)
-df = pd.read_csv(r"C:/Sprint Planning Dataset/improved_sprint_planning_dataset.csv")
+df = pd.read_csv(r"improved_sprint_planning_dataset.csv")
 
 # Use only numeric features
 numeric_features = [
