@@ -85,7 +85,8 @@ const aiScore = (task) =>
 - **Demo Data**: Pre-populated with sample tasks for immediate testing
 - **Export/Import**: Ready for database integration
 
-## What Your Friend Can Help With
+
+## How Contributors Can Help
 
 ### 🚀 **Immediate Opportunities**
 
