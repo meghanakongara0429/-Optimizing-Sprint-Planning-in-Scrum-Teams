@@ -65,6 +65,12 @@ CONTRIBUTE.md           # Contribution guidelines
 PROJECT_DETAILED_EXPLANATION.md # Detailed project overview
 ```
 
+## Project Flow Diagram
+
+For a visual overview of how the Sprint Planning App works, see the flowchart:
+
+![Sprint Planning App - Process Flow Diagram](Sprint%20Planning%20App%20-%20Process%20Flow%20Diagram.png)
+
 ## Contributing
 See [CONTRIBUTE.md](CONTRIBUTE.md) for guidelines.
 

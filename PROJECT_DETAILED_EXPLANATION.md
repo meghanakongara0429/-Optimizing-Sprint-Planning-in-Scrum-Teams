@@ -194,3 +194,23 @@ This project offers excellent learning experiences in:
 This project provides a solid foundation for learning advanced web development, AI integration, and Agile project management while building something genuinely useful for development teams.
 
 ---
+
+## Visual Project Flow
+
+For a simple diagram and explanation of how this project works (especially for non-IT contributors), see [PROJECT_FLOW_DIAGRAM.md](PROJECT_FLOW_DIAGRAM.md)
+
+---
+
+## Key Frontend-Backend Interactions Checklist
+
+Below is a checklist of important data exchanges and interactions between the frontend and backend. Use this to ensure each aspect is covered or understood:
+
+- [ ] Task management actions (add/edit/delete)
+- [ ] Sprint capacity settings and AI recommendations
+- [ ] Daily standup inputs
+- [ ] AI prediction requests and results
+- [ ] User authentication and role-based permissions
+- [ ] Fetching historical sprint data and analytics
+- [ ] Export/import data for reporting or backup
+
+You can tick these checkboxes as you explain or implement each feature, making it easy for contributors and reviewers to track project coverage.
