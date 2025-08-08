@@ -8,7 +8,7 @@ Thank you for your interest in contributing to this project! Your help is greatl
 - Click the "Fork" button at the top right of this repository page.
 - Clone your fork to your local machine:
   ```sh
-  git clone <your-fork-url>
+  git clone <https://github.com/meghanakongara0429/-Optimizing-Sprint-Planning-in-Scrum-Teams>
   cd -Optimizing-Sprint-Planning-in-Scrum-Teams
   ```
 
