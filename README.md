@@ -10,7 +10,7 @@ This project is a web application designed to help Scrum teams optimize their sp
 
 ## Tech Stack
 - **Frontend:** React (JavaScript, CSS)
-- **Backend:** Python (Flask or similar)
+- **Backend:** Python (Flask)
 
 ## Getting Started
 
